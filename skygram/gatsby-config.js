@@ -56,12 +56,12 @@ module.exports = {
         crossOrigin: `use-credentials`,
         icons: [
           {
-            src: '/logo.png',
+            src: '/favicon-32x32.png',
             sizes: '192x192',
             type: 'image/png',
           },
           {
-            src: '/logo.png',
+            src: '/favicon-32x32.png',
             sizes: '512x512',
             type: 'image/png',
           },
