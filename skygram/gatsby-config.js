@@ -25,13 +25,6 @@ module.exports = {
         dataKey: "skyGram"
       },
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `data`,
-        path: path.join(__dirname, `data`),
-      },
-    },
     // This plugin exposes helper functions for processing
     // images with the NPM package “sharp”. It's used by
     // several other plugins.

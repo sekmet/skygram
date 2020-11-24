@@ -1,14 +1,12 @@
 import React from "react"
 import { authenticate } from '../utils/authenticate'
-import EventEmitter from 'react-event-dispatcher'
 import { rhythm } from "../utils/typography"
 import Layout from "../layouts"
 
-//dispatch('unlock', { keyPair })
 const unlock = async () => {
     //disabled = true
     authenticate()
-        .then(keyPair => EventEmitter.dispatch('unlock', unlock))
+        .then(keyPair => console.log(keyPair))
         .catch(error => console.error('You have to install an Ethereum client.'));
 }
 

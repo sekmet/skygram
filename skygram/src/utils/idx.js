@@ -11,6 +11,5 @@ export async function createIDX(ceramic, options) {
     const idx = new IDXWeb({ ceramic, resolver: { registry } })
     await idx.authenticate(options)
     idx.did.setResolver(idx.resolver)
-    window.idx = idx
     return idx
 }

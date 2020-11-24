@@ -18,9 +18,9 @@ class About extends React.Component {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://github.com/gatsbyjs/gatsby"
+              href="https://siasky.net"
             >
-              Gatsby
+              SkyGram
             </a>
             .
           </p>
@@ -28,16 +28,11 @@ class About extends React.Component {
             The code for the site lives at
             {` `}
             <a
-              href="https://github.com/gatsbyjs/gatsby/tree/master/examples/gatsbygram"
+              href="https://github.com/sekmet/skygram"
               rel="noopener noreferrer"
               target="_blank"
             >
-              https://github.com/gatsbyjs/gatsby/tree/master/examples/gatsbygram
-            </a>
-          </p>
-          <p>
-            <a href="https://www.gatsbyjs.com/blog/gatsbygram-case-study/">
-              Read a case study on how Skygram was built
+              https://github.com/sekmet/skygram
             </a>
           </p>
         </div>
