@@ -49,11 +49,23 @@ module.exports = {
       options: {
         name: `Skygram`,
         short_name: `Skygram`,
-	      icon: `static/images/logo.png`,
         start_url: `/`,
         background_color: `#f7f7f7`,
         theme_color: `#191919`,
-        display: `minimal-ui`,
+        display: `standalone`,
+        crossOrigin: `use-credentials`,
+        icons: [
+          {
+            src: '/logo.png',
+            sizes: '192x192',
+            type: 'image/png',
+          },
+          {
+            src: '/logo.png',
+            sizes: '512x512',
+            type: 'image/png',
+          },
+        ],
       },
     },
     // This plugin generates a service worker and AppShell

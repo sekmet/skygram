@@ -72,6 +72,7 @@
     "cypress": "^3.8.3",
     "did-jwt": "^4.7.0",
     "gatsby-cypress": "^0.4.10",
+    "gh-pages": "^3.1.0",
     "skynet-js": "^2.9.0",
     "start-server-and-test": "^1.11.3"
   }
