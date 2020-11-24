@@ -56,12 +56,12 @@ module.exports = {
         crossOrigin: `use-credentials`,
         icons: [
           {
-            src: '/favicon-32x32.png',
+            src: '/android-chrome-192x192.png',
             sizes: '192x192',
             type: 'image/png',
           },
           {
-            src: '/favicon-32x32.png',
+            src: '/android-chrome-512x512.png',
             sizes: '512x512',
             type: 'image/png',
           },
