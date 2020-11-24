@@ -4,6 +4,7 @@ module.exports = {
   siteMetadata: {
     title: `Skygram`,
   },
+  pathPrefix: `/skygram/`,
   plugins: [
     /*
      * Gatsby's data processing layer begins with “source”
@@ -49,10 +50,10 @@ module.exports = {
       options: {
         name: `Skygram`,
         short_name: `Skygram`,
-        start_url: `/`,
+        start_url: `https://sekmet.github.io/skygram/`,
         background_color: `#f7f7f7`,
         theme_color: `#191919`,
-        display: `standalone`,
+        display: `minimal-ui`,
         crossOrigin: `use-credentials`,
         icons: [
           {
