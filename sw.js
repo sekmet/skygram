@@ -27,17 +27,17 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-8846c406f99192fcc798.js"
+    "url": "webpack-runtime-46cb56929daf2a9351eb.js"
   },
   {
     "url": "framework-9fb4b3462a06af88db8a.js"
   },
   {
-    "url": "app-90480bc7bd8824e9c4b3.js"
+    "url": "app-b9414fe3db28b42f28b1.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "771cdd51d433971e6be0b9ae08b03196"
+    "revision": "1eba6ef27288e341d0f3e03d6f5a5bb8"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-3d13040f82b126028209.js"
@@ -48,7 +48,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "bdf4825d61ccd1f259831fcfda6640fe"
+    "revision": "58b62236e8b2bad9d031aee90f17baf0"
   },
   {
     "url": "polyfill-5a3b86c34b3d0f77f444.js"
@@ -147,7 +147,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/skygram/app-90480bc7bd8824e9c4b3.js`))) {
+  if (!resources || !(await caches.match(`/skygram/app-b9414fe3db28b42f28b1.js`))) {
     return await fetch(event.request)
   }
 
