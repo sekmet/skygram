@@ -50,7 +50,7 @@ module.exports = {
       options: {
         name: `Skygram`,
         short_name: `Skygram`,
-        start_url: `https://sekmet.github.io/skygram/`,
+        start_url: `/`,
         background_color: `#f7f7f7`,
         theme_color: `#191919`,
         display: `minimal-ui`,
